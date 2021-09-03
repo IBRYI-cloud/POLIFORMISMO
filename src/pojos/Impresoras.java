@@ -1,6 +1,8 @@
 package pojos;
 
-public class Impresoras extends Productos {
+import interfaces.IReseteable;
+
+public class Impresoras extends Productos implements IReseteable {
     private int Velocidad;
     public Impresoras(String codigo, String modelo, int Velocidad){
         super(codigo, modelo);
@@ -13,5 +15,11 @@ public class Impresoras extends Productos {
 
     public void setVelocidad(int velocidad) {
         Velocidad = velocidad;
+    }
+
+    @java.lang.Override
+    public void reset() {
+        System.out.println("Reseteando Impresora...");
+
     }
 }

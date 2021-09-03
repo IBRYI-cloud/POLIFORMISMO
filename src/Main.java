@@ -24,27 +24,30 @@ public class Main {
         System.out.println(cpus);
          */
         //polimorfismo
-        Productos productos = new Productos( "g12", "genius g120");
+        //Productos productos = new Productos( "g12", "genius g120");
 
-        Productos lj750 = new Impresoras("lj750", "cANO 250", 30);
+        //Productos lj750 = new Impresoras("lj750", "cANO 250", 30);
         //System.out.println(lj750);
-        Productos s200 = new Monitores("232+", "s32p", 55, "FULLHD");
+        //Productos s200 = new Monitores("232+", "s32p", 55, "FULLHD");
         //System.out.println(s200);
-        Productos m500 = new DiscoDuro("20230", "mw211", 44 , 500);
+        //Productos m500 = new DiscoDuro("20230", "mw211", 44 , 500);
         //System.out.println(m500);
-
-        Impresoras impresoras = (Impresoras) lj750;
+        //Impresoras impresoras = (Impresoras) lj750;
         //System.out.println(impresoras);
-        Monitores monitores = (Monitores) s200;
+        //Monitores monitores = (Monitores) s200;
         //System.out.println(monitores);
-        DiscoDuro discoDuro = (DiscoDuro) s200;
+        //DiscoDuro discoDuro = (DiscoDuro) s200;
         //System.out.println(discoDuro);
-        Productos [] Productos = new  Productos[3];
-        Productos [0] = impresoras;
-        Productos [1] = monitores;
-        Productos [2] = discoDuro;
-        for (int i = 0; i < Productos.length; i++){
-              System.out.println(Productos[i]);
+        //Productos [] Productos = new  Productos[3];
+        //Productos [0] = impresoras;
+        //Productos [1] = monitores;
+        //Productos [2] = discoDuro;
+        //for (int i = 0; i < Productos.length; i++){
+              //System.out.println(Productos[i]);
         }
-    }
+        Productos lg1080 = new Monitores("lg", "monitor lg 1080", 100, "HD" );
+        lg1080.reset();
+        DiscoDuro s100 = new DiscoDuro("20", "lg", 10, 200);
+        s100.reset();
+}
 }
