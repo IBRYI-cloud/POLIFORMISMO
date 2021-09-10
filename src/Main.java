@@ -45,9 +45,9 @@ public class Main {
         //for (int i = 0; i < Productos.length; i++){
               //System.out.println(Productos[i]);
         }
-        Productos lg1080 = new Monitores("lg", "monitor lg 1080", 100, "HD" );
-        lg1080.reset();
-        DiscoDuro s100 = new DiscoDuro("20", "lg", 10, 200);
-        s100.reset();
-}
+        Monitores lg1010 = new Monitores("lg1010", "samsgung", 45, "HD");
+
+    public Monitores getLg1010() {
+        return lg1010;
+    }
 }

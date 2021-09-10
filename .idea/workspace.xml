@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dae64c3c-687f-443c-b7b7-501c0b2e09c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/IReseteable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/IReseteable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/IReseteable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pojos/Cpus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojos/Cpus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pojos/DiscoDuro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojos/DiscoDuro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pojos/DiscoSolido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojos/DiscoSolido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pojos/Impresoras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojos/Impresoras.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pojos/Monitores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojos/Monitores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pojos/Productos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojos/Productos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pojos/ProductosAlquiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojos/ProductosAlquiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pojos/ProductosAltatecnologia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojos/ProductosAltatecnologia.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -75,6 +77,7 @@
       <workItem from="1629485591423" duration="5641000" />
       <workItem from="1629907035683" duration="51000" />
       <workItem from="1630090728991" duration="5853000" />
+      <workItem from="1631286036746" duration="2303000" />
     </task>
     <servers />
   </component>
@@ -86,10 +89,22 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1631287886015">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1631287886015" />
+    <state x="304" y="0" key="#org.jetbrains.kotlin.idea.refactoring.safeDelete.KotlinOverridingDialog" timestamp="1631288276053">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="304" y="0" key="#org.jetbrains.kotlin.idea.refactoring.safeDelete.KotlinOverridingDialog/0.0.1366.728@0.0.1366.728" timestamp="1631288276053" />
   </component>
 </project>

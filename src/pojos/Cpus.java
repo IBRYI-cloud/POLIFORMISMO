@@ -31,6 +31,11 @@ public class Cpus extends ProductosAltatecnologia implements IReseteable {
                 '}';
     }
 
+    @Override
+    public void estado() {
+        System.out.println("Años de uso:" + 12);
+    }
+
     @java.lang.Override
     public void reset() {
         System.out.println("Reseteando a estado de fabrica...");

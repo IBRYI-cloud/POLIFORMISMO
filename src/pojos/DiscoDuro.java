@@ -23,4 +23,10 @@ public class DiscoDuro extends ProductosAlquiler implements IReseteable {
     public void reset() {
         System.out.println("Formateando discoduro...");
     }
+
+    @Override
+    public void estado() {
+        System.out.println("Sectores defectuoso" + 142);
+
+    }
 }

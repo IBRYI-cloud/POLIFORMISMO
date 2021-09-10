@@ -23,4 +23,9 @@ public class DiscoSolido extends ProductosAltatecnologia implements IReseteable 
     public void reset() {
         System.out.println("Formateando disco solido ...");
     }
+
+    @Override
+    public void estado() {
+        System.out.println("Cantidad veces formateadas" + 142);
+    }
 }

@@ -27,6 +27,11 @@ public class Monitores extends ProductosAlquiler implements IReseteable {
                 '}';
     }
 
+    @Override
+    public void estado() {
+        System.out.println("Brillo" + 50 + "%");
+    }
+
     @java.lang.Override
     public void reset() {
         System.out.println("Reseteando Monitor....");

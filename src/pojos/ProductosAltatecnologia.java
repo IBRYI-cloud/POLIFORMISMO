@@ -48,4 +48,9 @@ public class ProductosAltatecnologia extends Productos {
                 ", modelo='" + modelo + '\'' +
                 '}';
     }
+
+    @Override
+    public void estado() {
+        System.out.println();
+    }
 }

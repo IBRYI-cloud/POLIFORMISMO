@@ -17,9 +17,18 @@ public class Impresoras extends Productos implements IReseteable {
         Velocidad = velocidad;
     }
 
+    @Override
+    public void estado() {
+        System.out.println("PAGINA IMPRESAS" +   152400);
+    }
+
+
+
     @java.lang.Override
     public void reset() {
         System.out.println("Reseteando Impresora...");
 
     }
+
+
 }
